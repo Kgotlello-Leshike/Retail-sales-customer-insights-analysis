@@ -14,23 +14,6 @@ This project analyzes a **Retail Sales & Customer Demographics dataset** to unco
 
 The analysis combines **SQL queries, Python data analysis, and visualizations** to transform raw transactional data into actionable business insights.
 
-Processed datasets from this analysis can also be used to build **interactive dashboards in Power BI**.
-
----
-
-# 📊 Dashboard Preview
-
-Below is a preview of the Power BI dashboard built using the exported datasets from this project.
-
-*(Dashboard screenshot will be added here)*
-
-The dashboard provides insights into:
-
-- Revenue by product category
-- Monthly and quarterly sales trends
-- Customer demographics
-- Seasonal product performance
-
 ---
 
 # 🎯 Project Objectives
@@ -57,8 +40,8 @@ This project uses the following technologies:
 - **SQLite (SQL queries executed inside Python)**
 - **Matplotlib**
 - **Seaborn**
-- **Jupyter Notebook / Google Colab**
-- **Power BI (for optional dashboard visualization)**
+- **Google Colab**
+
 
 ---
 
@@ -115,22 +98,19 @@ The analysis generates several processed datasets which are exported as CSV file
 - Revenue by age group
 - Product category performance by quarter
 
-These datasets can be used to build **Power BI dashboards or additional analysis projects**.
-
 ---
 
 # 🚀 Quick Start
 
 To run this project yourself:
 
-1. Open the notebook in **Google Colab** or **Jupyter Notebook**
+1. Open the notebook in **Google Colab**
 2. Run all cells from top to bottom
 3. The dataset will automatically download using **KaggleHub**
 4. SQL queries will execute inside an **SQLite in-memory database**
 5. Visualizations and insights will be generated throughout the notebook
+6. The query results will be exported into CSV's
 
-Optional:
-The exported datasets can be imported into **Power BI** for dashboard creation.
 
 ---
 
@@ -149,8 +129,7 @@ Since this dataset is synthetic, several limitations exist:
 Possible extensions for this project include:
 
 - Building a **fully interactive Power BI dashboard**
-- Performing **RFM customer segmentation**
-- Implementing **sales forecasting models**
+- Implementing **sales forecasting models** using predictive modelling
 - Adding **profit margin analysis**
 
 ---
